@@ -18,6 +18,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
+    padding: 0 15px;
 }
 
 .title{
@@ -117,4 +118,34 @@ h1 {
     text-decoration: line-through;
     opacity: .5;
     pointer-events: none;    
+}
+
+
+
+@media (max-width: 568px){
+    .container{
+        margin-top: 7rem;
+    }
+    .title{
+        font-size: 35px;
+    }
+    #form{
+        width: auto;
+        padding: 30px;
+    }
+    #input,
+    #submit{
+        font-size: 15px;
+    }
+    .item p{
+        font-size: 15px;
+    }
+    .item-box{
+        gap: 7px;
+        flex-direction: column;
+    }
+    .complete,
+    .delete{
+        font-size: 14px;
+    }
 }
