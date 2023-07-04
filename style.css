@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(33, 70, 138);
+}
+
+p,
+b,
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.title{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+#form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#input {
+    width: 100%;
+    font-size: 17px;
+    padding: 7px;
+    border: 2px solid #909090;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+
+#input:focus {
+    border-color: rgb(33, 70, 138);
+    outline: rgb(33, 70, 138);
+    box-shadow: 1px 1px 10px rgb(33, 70, 138);
+}
+
+#submit {
+    font-size: 17px;
+    background-color: rgb(30, 144, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+#submit:hover {
+    background-color: rgba(30, 144, 255, .8);
+}
+
+.item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .3s linear;
+}
+.item-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.complete{
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: mediumblue;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.delete {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;    
+}
+.item p{
+    max-width: 285px;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: .5;
+    pointer-events: none;    
+}
