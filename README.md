@@ -6,7 +6,7 @@ This project helps to plan something for your day
 
 # Using
 
-You should just down this code or open this website with your browser 👇
-
+You should just down this code or copy this website link and paste it in your browser 👇
+https://todo-list1-project.netlify.app/
 
 
